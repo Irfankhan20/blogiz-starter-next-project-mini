@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 import Providers from "@/lib/Providers";
+// import { ToastContainer } from "react-toastify";
 
 const roboto = Roboto({
   weight: "400",
@@ -31,6 +32,7 @@ export default function RootLayout({
           <Footer />
         </body>
       </html>
+      {/* <ToastContainer /> */}
     </Providers>
   );
 }
